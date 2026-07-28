@@ -24,7 +24,8 @@ $config = @{
     ConfirmationPrompt   = "Publish this NVIDIA desktop driver? Type YES to continue:"
     SuccessMessage       = "NVIDIA desktop driver published successfully."
     MarkAsLatest         = $true
-    UseLatestDownloadUrl = $true
+    UseLatestDownloadUrl = $false
+    RestoreLatestReleaseTag = $null
     StagePaths           = @(
         "driver-manifest.json"
         "publish-nvidia-driver.ps1"

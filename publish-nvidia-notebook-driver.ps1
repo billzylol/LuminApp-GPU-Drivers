@@ -23,8 +23,9 @@ $config = @{
     ReleaseNotesHeading  = "Lumin NVIDIA Driver 595.79 (Notebook)"
     ConfirmationPrompt   = "Publish this NVIDIA notebook driver? Type YES to continue:"
     SuccessMessage       = "NVIDIA notebook driver published successfully."
-    MarkAsLatest         = $false
-    UseLatestDownloadUrl = $false
+    MarkAsLatest            = $false
+    UseLatestDownloadUrl    = $false
+    RestoreLatestReleaseTag = "nvidia-595.79"
     StagePaths           = @(
         "driver-manifest.json"
         "publish-nvidia-notebook-driver.ps1"

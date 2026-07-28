@@ -143,6 +143,7 @@ function Publish-NvidiaDriverRelease {
     $SuccessMessage = $Config.SuccessMessage
     $MarkAsLatest = [bool]$Config.MarkAsLatest
     $UseLatestDownloadUrl = [bool]$Config.UseLatestDownloadUrl
+    $RestoreLatestReleaseTag = $Config.RestoreLatestReleaseTag
     $StagePaths = [string[]]$Config.StagePaths
     $MaxFileSizeBytes = [int64]2147483648
 
@@ -286,6 +287,11 @@ LuminApp must verify the SHA-256 hash before executing this file.
                     --repo $repositorySlug
             }
             Assert-LastExitCode -FailureMessage "Failed to update GitHub release $ReleaseTag."
+        }
+
+        if (-not [string]::IsNullOrWhiteSpace($RestoreLatestReleaseTag)) {
+            gh release edit $RestoreLatestReleaseTag --latest --repo $repositorySlug
+            Assert-LastExitCode -FailureMessage "Failed to restore latest release tag $RestoreLatestReleaseTag."
         }
 
         $versionedDownloadUrl = "https://github.com/$repositorySlug/releases/download/$ReleaseTag/$AssetName"
