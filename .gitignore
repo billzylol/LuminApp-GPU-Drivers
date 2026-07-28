@@ -1,0 +1,5 @@
+upload/*
+!upload/.gitkeep
+logs/
+*.tmp
+release-notes-*.md

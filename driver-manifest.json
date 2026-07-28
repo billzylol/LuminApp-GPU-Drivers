@@ -1,0 +1,16 @@
+{
+    "schemaVersion":  1,
+    "updatedAt":  "2026-07-28T07:51:32Z",
+    "drivers":  {
+                    "nvidia":  {
+                                   "version":  "595.79",
+                                   "tag":  "nvidia-595.79",
+                                   "assetName":  "NVCleanstall_NVIDIA_595.79_x64_dch_Desktop_Setup.exe",
+                                   "downloadUrl":  "https://github.com/billzylol/LuminApp-GPU-Drivers/releases/latest/download/NVCleanstall_NVIDIA_595.79_x64_dch_Desktop_Setup.exe",
+                                   "versionedDownloadUrl":  "https://github.com/billzylol/LuminApp-GPU-Drivers/releases/download/nvidia-595.79/NVCleanstall_NVIDIA_595.79_x64_dch_Desktop_Setup.exe",
+                                   "sha256":  "388adadb018a29321fa20bdf7354ad2f8c966abe97704d018afda12cee2b01d8",
+                                   "sizeBytes":  782079229,
+                                   "publishedAt":  "2026-07-28T07:51:32Z"
+                               }
+                }
+}
