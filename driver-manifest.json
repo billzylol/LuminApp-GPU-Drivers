@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "updatedAt":  "2026-07-28T07:51:32Z",
+    "updatedAt":  "2026-07-28T08:03:56Z",
     "drivers":  {
                     "nvidia":  {
                                    "version":  "595.79",
@@ -11,6 +11,16 @@
                                    "sha256":  "388adadb018a29321fa20bdf7354ad2f8c966abe97704d018afda12cee2b01d8",
                                    "sizeBytes":  782079229,
                                    "publishedAt":  "2026-07-28T07:51:32Z"
-                               }
+                               },
+                    "nvidia-notebook":  {
+                                            "version":  "595.79",
+                                            "tag":  "nvidia-595.79-notebook",
+                                            "assetName":  "NVCleanstall_NVIDIA_595.79_x64_dch_Notebook_Setup.exe",
+                                            "downloadUrl":  "https://github.com/billzylol/LuminApp-GPU-Drivers/releases/download/nvidia-595.79-notebook/NVCleanstall_NVIDIA_595.79_x64_dch_Notebook_Setup.exe",
+                                            "versionedDownloadUrl":  "https://github.com/billzylol/LuminApp-GPU-Drivers/releases/download/nvidia-595.79-notebook/NVCleanstall_NVIDIA_595.79_x64_dch_Notebook_Setup.exe",
+                                            "sha256":  "9d5f3202477238cbdb376d2050dc196d6ee25e889c94bf150a5d6d1db7b04984",
+                                            "sizeBytes":  782079059,
+                                            "publishedAt":  "2026-07-28T08:03:56Z"
+                                        }
                 }
 }
